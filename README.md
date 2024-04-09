@@ -1,18 +1,20 @@
 # DropFleet 
 
-Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
+Apresentando Dropfleet, o mais recente avanço em eficiência logística para e-commerce em grande escala: nosso inovador software de rastreamento de encomendas. Ao solucionar os problemas comuns enfrentados nos sites dos correios e eliminando bugs que afetam a experiência do usuário, nossa solução oferece uma plataforma robusta e confiável para rastrear encomendas de forma rápida e precisa. Com uma interface intuitiva e recursos de notificação, os clientes podem acompanhar o status de suas remessas em tempo real e grande escala, garantindo transparência e confiança em cada etapa do processo de entrega.
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Lucas Sousa Aguiar 
+* Vinícius Oliveira Ramos 
+* Vinicius Gomes 
+* Vinicius Zegarra
+* Enrico 
+* Kayque Allan Ribeiro Freitas
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* João Paulo Carneiro Aramuni
+* Michelle Hanne Soares de Andrade
 
 ## Instruções de utilização
 

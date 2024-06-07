@@ -93,8 +93,12 @@ function cadastrar(){
             senhaCad: senha.value
         }
         )
-        // CONVERTENDO O JSON PARA STRING NO LOCAL STORAGE
+        // CONVERTENDO O JSON PARA STRING NO LOCAL STORAGE E ARMAZENANDO NO LOCALSTORAGE
         localStorage.setItem('listaUsuario', JSON.stringify(listaUsuario))
+        // ARMAZENANDO OS DADOS NA SESSION STORAGE
+        sessionStorage.setItem('nome', nome.value)
+        sessionStorage.setItem('email', email.value)
+        sessionStorage.setItem('senha', senha.value)
 
         alert('Campos preenchidos!')
         msgSucesso.setAttribute('style', 'display: block')
@@ -139,3 +143,10 @@ btnConfirm.addEventListener('click', () => {
         inputSenha.setAttribute('type', 'password')
     }
 })
+
+/* 
+---- COMANDO PARA PEGAR A LISTA ORDENADA DE TODOS OS USUARIOS E SEUS DADOS NO CONSOLE ----
+    var listaUsuario = JSON.parse(localStorage.getItem('listaUsuario') || '[]');
+    console.log(listaUsuario);
+---- COMANDO PARA PEGAR A LISTA ORDENADA DE TODOS OS USUARIOS E SEUS DADOS NO CONSOLE ----
+*/

@@ -18,9 +18,9 @@ function entrar() {
   var msgErro = document.querySelector("#msgErro");
   var listaUsuario = [];
   var userValid = {
-    nome: "",
-    email: "",
-    senha: "",
+    nome: null,
+    email: null,
+    senha: null,
   };
 
   listaUsuario = JSON.parse(localStorage.getItem("listaUsuario")); // VAI PEGAR O ARRAY DOS DADOS DE CADASTRO
@@ -37,9 +37,12 @@ function entrar() {
 
   if (email.value == userValid.email && senha.value == userValid.senha) {
     var token = Math.random().toString(16).substr(2); // GERAR UM TOKEN QUANDO USUARIO ENTRAR NO SITE
-    localStorage.setItem("token", token); // SALVAR O TOKEN NO LOCALSTORAGE
+    localStorage.setItem("token", token); // ARMAZENA O TOKEN NO LOCALSTORAGE
+
+    sessionStorage.setItem("userLogado", JSON.stringify(userValid)); // ARMAZENA OS DADOS DO USUÁRIO NO SESSION STORAGE
+    sessionStorage.setItem("token", token); // ARMAZENAR O TOKEN NO SESSIONSTORAGE
     setTimeout(() => {
-      window.location.href = "../../index.html"; // QUANDO O USUARIO LOGAR SERÁ ENVIADO PRA ESSA TELA
+      window.location.href = "../pages/inicio.html"; // QUANDO O USUARIO LOGAR SERÁ ENVIADO PRA ESSA TELA
     }, 3000); // APÓS 3 SEGUNDOS ABRI-RÁ A TELA PRINCIPAL
   } else {
     // SE O EMAIL OU SENHA TIVER ERRADO APARECE ISSO NA TELA:
@@ -52,3 +55,10 @@ function entrar() {
     senha.focus();
   }
 }
+
+/* 
+---- COMANDO PARA PEGAR A LISTA ORDENADA DE TODOS OS USUARIOS E SEUS DADOS NO CONSOLE ----
+    var listaUsuario = JSON.parse(localStorage.getItem('listaUsuario') || '[]');
+    console.log(listaUsuario);
+---- COMANDO PARA PEGAR A LISTA ORDENADA DE TODOS OS USUARIOS E SEUS DADOS NO CONSOLE ----
+*/

@@ -6,161 +6,138 @@ document.addEventListener("DOMContentLoaded", function () {
       postDate: "2024-04-13",
       deliveryDate: "2024-05-13",
       status: "Em transito.",
-      email: "teste1@gmail.com",
     },
     {
       id: "NC567823BR",
       postDate: "2024-05-10",
       deliveryDate: "2024-05-21",
       status: "Entregue",
-      email: "teste1@gmail.com",
     },
     {
       id: "NC910111BR",
       postDate: "2024-05-08",
       deliveryDate: "2024-07-06",
       status: "Aguardando retirada",
-      email: "teste1@gmail.com",
     },
     {
       id: "NC121314BR",
       postDate: "2024-05-01",
       deliveryDate: "2024-05-11",
       status: "Em transito",
-      email: "teste1@gmail.com",
     },
     {
       id: "NC151617BR",
       postDate: "2024-03-12",
       deliveryDate: "2024-03-28",
       status: "Entregue",
-      email: "teste1@gmail.com",
     },
     {
       id: "NC181920BR",
       postDate: "2024-03-22",
       deliveryDate: "2024-04-14",
       status: "Postado",
-      email: "teste1@gmail.com",
     },
     {
       id: "NC212223BR",
       postDate: "2024-04-20",
       deliveryDate: "2024-05-04",
       status: "Postado",
-      email: "teste1@gmail.com",
     },
     {
       id: "NC242526BR",
       postDate: "2024-04-09",
       deliveryDate: "2024-04-09",
       status: "Aguardando liberação.",
-      email: "teste1@gmail.com",
     },
     {
       id: "NC272829BR",
       postDate: "2024-04-01",
       deliveryDate: "2024-05-01",
       status: "Aguardando liberação",
-      email: "teste1@gmail.com",
     },
     {
       id: "NC303132BR",
       postDate: "2024-04-15",
       deliveryDate: "2024-04-30",
       status: "Em transito",
-      email: "teste2@gmail.com",
     },
     {
       id: "NC333435BR",
       postDate: "2024-04-20",
       deliveryDate: "2024-06-19",
       status: "Aguardando retirada",
-      email: "teste2@gmail.com",
     },
     {
       id: "NC363738BR",
       postDate: "2023-04-25",
       deliveryDate: "2024-02-10",
       status: "Entregue",
-      email: "teste2@gmail.com",
     },
     {
       id: "NC394041BR",
       postDate: "2024-04-30",
       deliveryDate: "2024-07-10",
       status: "Em transito",
-      email: "teste2@gmail.com",
     },
     {
       id: "NC424344BR",
       postDate: "2024-05-05",
       deliveryDate: "2024-10-09",
       status: "Aguardando retirada",
-      email: "teste2@gmail.com",
     },
     {
       id: "NC454647BR",
       postDate: "2024-05-10",
       deliveryDate: "2024-05-18",
       status: "Em transito",
-      email: "teste3@gmail.com",
     },
     {
       id: "NC484950BR",
       postDate: "2024-05-15",
       deliveryDate: "2024-06-05",
       status: "Entregue",
-      email: "teste3@gmail.com",
     },
     {
       id: "NC515253BR",
       postDate: "2024-05-20",
       deliveryDate: "2024-06-16",
       status: "Aguardando retirada",
-      email: "teste3@gmail.com",
     },
     {
       id: "NC545556BR",
       postDate: "2024-05-25",
       deliveryDate: "2024-06-13",
       status: "Em transito",
-      email: "teste3@gmail.com",
     },
     {
       id: "NC575859BR",
       postDate: "2024-05-01",
       deliveryDate: "2024-06-23",
       status: "Aguardando retirada",
-      email: "teste3@gmail.com",
     },
     {
       id: "NC606162BR",
       postDate: "2024-05-05",
       deliveryDate: "2024-08-01",
       status: "Em transito",
-      email: "teste4@gmail.com",
     },
     {
       id: "NC636465BR",
       postDate: "2024-05-10",
       deliveryDate: "2024-05-11",
       status: "Entregue",
-      email: "teste4@gmail.com",
     },
     {
       id: "NC666768BR",
       postDate: "2024-05-15",
       deliveryDate: "2024-12-28",
       status: "Aguardando retirada",
-      email: "teste4@gmail.com",
     },
     {
       id: "NC697071BR",
       postDate: "2024-05-20",
       deliveryDate: "2025-12-09",
       status: "Em transito",
-      email: "teste4@gmail.com",
     },
   ];
 
@@ -182,7 +159,7 @@ document.addEventListener("DOMContentLoaded", function () {
     postDate.textContent = `Postagem: ${object.postDate}`;
 
     const deliveryDate = document.createElement("p");
-    deliveryDate.textContent = `Previsão de entrega: ${object.deliveryDate}`;
+    deliveryDate.textContent = `Entregue: ${object.deliveryDate}`;
 
     const notifyButton = document.createElement("button");
     notifyButton.textContent = "Enviar Notificação";

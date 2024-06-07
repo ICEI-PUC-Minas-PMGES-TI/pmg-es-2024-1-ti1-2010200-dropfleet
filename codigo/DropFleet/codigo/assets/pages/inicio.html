@@ -11,36 +11,34 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <link
       rel="shortcut icon"
-      href="assets/img/entrega-rapida.png"
+      href="../img/entrega-rapida.png"
       type="image/x-icon"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <title>DropFleet</title>
   </head>
   <body>
-
-    
-  <nav>
+    <nav>
     <div class="nav__header">
       <div class="nav__logo">
-        <a href="index.html" class="logo">Drop<span>Fleet</span>.</a>
+        <a href="inicio.html" class="logo">Drop<span>Fleet</span>.</a>
       </div>
         <div class="nav__menu__btn" id="menu-btn">
           <i class="ri-menu-line"></i>
         </div>
       </div>
          <ul class="nav__links" id="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#Quem-somos">Quem Somos</a></li>
+            <li><a href="inicio.html">Home</a></li>
+            <li><a href="#Quem-somos">Quem Somos</a></li>
             <li><a href="#funcionalidades">Saiba Mais </a></li>
             <li><a href="#client">Clientes</a></li>
-            <li><a id="my" href="../codigo/assets/pages/rastreio.html">Meus Rastreios</a></li>
+            <li><a id="my" href="../pages/rastreio.html">Meus Rastreios</a></li>
      <div class="login-container">
       <div class="login-button">
-        <a id="login" href="../codigo/assets/pages/login.html"><i class="fa-solid fa-user"></i>Login</a>
+        <a id="login" href="login.html"><i class="fa-solid fa-user"></i>Login</a>
       </div>
          <ul class="dropdown">
           <li><a href="#">Teste 1</a></li>
@@ -50,12 +48,13 @@
     </ul>
   </nav>
 
-
     <header class="section__container header__container" id="home">
       <div class="header__image">
-        <img src="../codigo/assets/img/homem-caixa.png" alt="header" style="width: 110%; height: auto;" />
+        <img src="../img/homem-caixa.png" alt="header" style="width: 110%; height: auto;" />
       </div>
       <div class="header__content">
+        <div id="saudacao"></div>
+        <h1 id="logado"></h1>
         <h3 class="section__subheader">VOCÊ ACHOU O MELHOR</h3>
         <h1>Rastreador de Encomendas</h1>
         <p style="text-align: justify;">  Basta digitar o código de rastreamento fornecido pelo serviço de transporte para acompanhar o status e a localização do seu pedido em tempo real.
@@ -67,10 +66,10 @@
         </div>
       </div>
     </header>
-
+    
     <section class="section__container trip__container" id="Quem-somos">
       <div class="trip__image">
-        <img src="../codigo/assets/img/trip.png" alt="trip" />
+        <img src="../img/trip.png" alt="trip" />
       </div>
       <div class="trip__content">
         <h3 class="section__subheader">Trazendo Eficiência ao Comércio Eletrônico</h3>
@@ -94,28 +93,28 @@
       <h2 class="section__header">A DropFleet proporciona:</h2>
       <div class="service__grid">
         <div class="service__card">
-          <img src="../codigo/assets/img/seguro-de-viagem.png" alt="service" />
+          <img src="../img/seguro-de-viagem.png" alt="service" />
           <h4>Segurança de Transporte</h4>
           <p>
             Garante aos clientes entregas seguras e confiáveis com integração global a serviços postais e de transporte.
           </p>
         </div>
         <div class="service__card">
-          <img src="../codigo/assets/img/ecommerce.png" alt="service" />
+          <img src="../img/ecommerce.png" alt="service" />
           <h4>Integração Fácil:</h4>
           <p>
             A Dropfleet se integra perfeitamente às plataformas de e-commerce, simplificando o gerenciamento de pedidos para os proprietários de lojas online.
           </p>
         </div>
         <div class="service__card">
-          <img src="../codigo/assets/img/rastreamento (1).png" alt="service" />
+          <img src="../img/rastreamento (1).png" alt="service" />
           <h4>Rastreamento em Tempo Real</h4>
           <p>
             Oferece aos clientes o acompanhamento instantâneo dos pedidos, gerando confiança e transparência no processo de entrega.
           </p>
         </div>
         <div class="service__card">
-          <img src="../codigo/assets/img/notificacoes.png" alt="service" />
+          <img src="../img/notificacoes.png" alt="service" />
           <h4>Notificações Personalizadas</h4>
           <p>
             Os clientes podem optar por receber notificações sobre mudanças no status de seus pedidos, como quando o pedido é processado, enviado ou entregue.
@@ -132,16 +131,16 @@
         <h2 class="section__header">O que as pessoas dizem sobre nós</h2>
       </div>
       <div class="client__swiper">
-        
+       
         <div class="swiper">
           
           <div class="swiper-wrapper">
             
             <div class="swiper-slide">
               <div class="client__card">
-                <img src="../codigo/assets/img/client-1.jpg" alt="client" />
+                <img src="../img/client-1.jpg" alt="client" />
                 <div class="client__card__content">
-                  <p>
+                  <p style="text-align: justify;">
                     A DropFleet mudou completamente a maneira como gerencio minhas vendas online. Agora posso acompanhar meus pedidos em tempo real e garantir que meus clientes recebam suas encomendas com segurança e pontualidade. As notificações personalizadas também são um toque fantástico que me ajuda a manter meus clientes informados e engajados.
                   </p>
                   <h4>Ana Oliveira.</h4>
@@ -151,9 +150,9 @@
             </div>
             <div class="swiper-slide">
               <div class="client__card">
-                <img src="../codigo/assets/img/client-2.jpg" alt="client" />
+                <img src="../img/client-2.jpg" alt="client" />
                 <div class="client__card__content">
-                  <p>
+                  <p style="text-align: justify;">
                     Estou muito satisfeito com a facilidade de uso da DropFleet. Como proprietário de uma pequena loja online, a integração perfeita com minha plataforma de e-commerce e o rastreamento simplificado de pedidos economizaram muito tempo e esforço. Além disso, a segurança proporcionada pela integração com os principais serviços postais me dá tranquilidade em relação às entregas.
                   </p>
                   <h4>David Santos</h4>
@@ -163,9 +162,9 @@
             </div>
             <div class="swiper-slide">
               <div class="client__card">
-                <img src="../codigo/assets/img/client-3.jpg" alt="client" />
+                <img src="../img/client-3.jpg" alt="client" />
                 <div class="client__card__content">
-                  <p>
+                  <p style="text-align: justify;">
                     A experiência do usuário da DropFleet é simplesmente excepcional. Como cliente, aprecio muito a interface intuitiva que me permite acompanhar meus pedidos com facilidade. Receber notificações sobre o status das minhas encomendas tornou todo o processo de compra online muito mais conveniente e confiável. Recomendo totalmente.
                   </p>
                   <h4>João Silva</h4>
@@ -191,7 +190,7 @@
         <div class="footer__col" style="flex: 1; margin-left: 50px;">
           <h4>Contato</h4>
           <ul class="footer__links">
-            <li><a href="assets/pages/faq.html">Help/FAQ</a></li>
+            <li><a href="../pages/faq.html">Help/FAQ</a></li>
             <li><a href="#">+55 31 2527-9215</a></li>
             <li><a href="">dropfleetsuporte@gmail.com</a></li>
             <li><a href="#">R. Dom José Gaspar, 500 - Coração Eucarístico, Belo Horizonte - MG, 30535-901</a></li>
@@ -219,9 +218,11 @@
       </div>
     </footer>
     
-
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="../codigo/assets/js/main.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/inicio.js"></script>
+    <script src="../js/login.js"></script>
+    <script src="../js/cadastro.js"></script>
   </body>
 </html>

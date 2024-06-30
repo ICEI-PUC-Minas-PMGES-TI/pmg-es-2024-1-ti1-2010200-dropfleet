@@ -109,8 +109,10 @@ para que eu possa reduzir erros manuais, melhorar a precisão das informações 
 - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 ## Requisitos
+![Screenshot 2024-06-30 203029](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-dropfleet/assets/164039275/cadfe9ce-ef96-4afa-ab01-931437683c99)
+![Screenshot 2024-06-30 203037](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-dropfleet/assets/164039275/fd746d2b-b45e-4381-ae91-4fbb4056fc94)
 
-Os requisitos de um projeto são classificados em dois grupos:
+
 
 - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
   correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).

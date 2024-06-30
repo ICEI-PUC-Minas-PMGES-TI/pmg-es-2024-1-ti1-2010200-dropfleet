@@ -6,9 +6,9 @@ Apresentando Dropfleet, o mais recente avanço em eficiência logística para e-
 
 * Lucas Sousa Aguiar 
 * Vinícius Oliveira Ramos 
-* Vinicius Gomes 
-* Vinicius Zegarra
-* Enrico 
+* Vinicius Gomes Rodrigues
+* Vinicius Zegarra Palhares
+* Enrico Augusto César Resende
 * Kayque Allan Ribeiro Freitas
 
 ## Professores responsáveis

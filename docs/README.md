@@ -61,20 +61,8 @@ O público-alvo do projeto Dropfleet são os proprietários de lojas virtuais qu
 
 ## Personas
 
-Persona 1: João, Empreendedor de E-commerce
-Descrição:
-João tem 35 anos, é empreendedor há 5 anos e gerencia sua loja virtual de roupas. Ele possui conhecimento básico em tecnologia e busca soluções que otimizem sua operação de dropshipping.
+![image](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-dropfleet/assets/164039275/c960e6bf-0bd1-40cf-8892-dd1e911bc407)
 
-Mapa de Empatia:
-
-Dores:
-
-Dificuldade em acompanhar o status dos pedidos.
-Falta de integração entre diferentes sistemas.
-Ganhos:
-
-Melhoria na eficiência operacional.
-Maior controle sobre os processos logísticos.
 
 **Links Úteis**:
 
@@ -85,7 +73,35 @@ Maior controle sobre os processos logísticos.
 
 ## Histórias de Usuários
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+**História de Usuário 1**: Visualização de Status de Pedidos
+Eu, como João, empreendedor de e-commerce,
+desejo visualizar o status atualizado de todos os pedidos em tempo real,
+para que eu possa acompanhar de forma eficiente o andamento dos processos logísticos e tomar ações rápidas quando necessário.
+
+**Critérios de Aceitação**:
+- Deve ser possível visualizar o status de cada pedido individualmente.
+- Os status devem ser atualizados automaticamente conforme as mudanças no sistema.
+- Deve haver filtros para facilitar a busca de pedidos específicos por status, data, ou cliente
+
+**História de Usuário 2**: Integração com Plataformas de E-commerce
+Eu, como Maria, startuper de tecnologia,
+desejo uma integração simplificada entre nossa solução e diferentes plataformas de e-commerce (Shopify, WooCommerce, etc.),
+para que eu possa oferecer aos nossos clientes uma solução que seja fácil de implementar e compatível com suas plataformas existentes.
+
+**Critérios de Aceitação**:
+- Deve ser possível configurar a integração com diferentes plataformas de e-commerce através de APIs ou plugins.
+- A integração deve suportar a sincronização bidirecional de dados para garantir precisão nas informações.
+- Deve ser fácil para os clientes configurarem e gerenciarem a integração sem necessidade de conhecimento técnico avançado.
+
+**História de Usuário 3**: Automação de Processos de Rastreamento
+Eu, como João, empreendedor de e-commerce,
+desejo automatizar o rastreamento de pedidos desde a compra até a entrega final ao cliente,
+para que eu possa reduzir erros manuais, melhorar a precisão das informações de logística e proporcionar uma melhor experiência ao cliente.
+
+**Critérios de Aceitação**
+- A solução deve monitorar automaticamente o status de cada pedido em todas as etapas do processo logístico.
+- Deve ser possível configurar notificações automáticas para clientes sobre o status de seus pedidos.
+- Deve haver um painel de controle intuitivo para que eu possa verificar o progresso de cada pedido de forma clara e rápida.
 
 **Links Úteis**:
 
@@ -110,7 +126,7 @@ Lembre-se que cada requisito deve corresponder à uma e somente uma característ
 
 ## User Flow
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+O fluxo de usuário (User Flow) no projeto Dropfleet é crucial para mapear as interações dos usuários com a plataforma, desde o momento em que acessam o sistema até o acompanhamento completo do status dos pedidos. O objetivo é garantir uma experiência intuitiva e eficiente, alinhando as expectativas dos usuários com as funcionalidades oferecidas.
 
 **Links Úteis**:
 
@@ -120,7 +136,21 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 
-Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante ao layout de elementos fundamentais na interface.
+![index](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-dropfleet/assets/164039275/f7577d12-2f10-4a7f-9ccc-7e1213750f8e)
+![Screenshot 2024-06-30 195009](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-dropfleet/assets/164039275/af48292f-bf78-487c-9f01-beb4b0172029)
+![Screenshot 2024-06-30 195015](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-dropfleet/assets/164039275/60428a34-6233-46ca-83f8-00a9f317199f)
+![Screenshot 2024-06-30 195022](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-dropfleet/assets/164039275/b7fc86b2-b2e9-4b3b-990c-9f42be8e3f72)
+![parte dos meus rastreios](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-dropfleet/assets/164039275/a7154acb-ff5e-42f5-9df7-4b46867351ce)
+![Screenshot 2024-06-30 195028](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-dropfleet/assets/164039275/b6a7de0d-dd4a-4233-aaf4-5f401acb7e64)
+![faq](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-dropfleet/assets/164039275/19217c9a-897d-4b25-ae43-37e9526eb21b)
+![entrnado](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-dropfleet/assets/164039275/b906477f-a1ad-4fb8-859e-b07a74c47c99)
+![entrnado](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-dropfleet/assets/164039275/8e067b32-ae8e-4a00-8358-e56602a39aa7)
+![parte dos meus rastreios](https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-dropfleet/assets/164039275/2e72adab-2087-4686-bc32-176485cc92b6)
+
+
+
+
+
 
 **Links Úteis**:
 
@@ -131,9 +161,7 @@ Wireframes são protótipos das telas da aplicação usados em design de interfa
 
 ## Gestão de Projetos
 
- Nesta parte do documento, você deve apresentar  o processo de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a gestão de configuração do projeto via GitHub.
-
-Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+A gestão de projetos no projeto Dropfleet é baseada em metodologias ágeis, especificamente o Scrum, para garantir um desenvolvimento iterativo e colaborativo. A utilização de ferramentas como o GitHub para gestão de código fonte e issues é fundamental para acompanhar o progresso e coordenar as tarefas entre os membros da equipe.
 
 **Links Úteis**:
 

@@ -1,6 +1,6 @@
-# Documentação do Projeto (TIDocs)
+# Documentação do Projeto Dropfleet
 
-Esta pasta armazena a documentação do projeto para a disciplina de **Trabalho Interdisciplinar 1** dos cursos de Tecnologia da Informação da **[PUC Minas](https://pucminas.br)**. Essa documentação é estruturada na forma de um site que fica disponível por meio do GitHub Pages e pode ser incluído, também, no site da solução hospedada. Um [exemplo publicado do TIDocs](https://webtech-puc-minas.github.io/ti1-template/) está disponível por meio do repositório do **[WebTech PUC Minas](https://github.com/webtech-pucminas)**.
+Esta pasta contém a documentação detalhada do projeto Dropfleet, desenvolvido como parte da disciplina de Trabalho Interdisciplinar 1 dos cursos de Tecnologia da Informação da PUC Minas. O projeto visa simplificar o rastreamento de pedidos no e-commerce, especialmente para aqueles envolvidos em dropshipping.
 
 A documentação do projeto inclui as seguintes seções:
 
@@ -20,9 +20,7 @@ Esta seção traz explicações breves sobre o conjunto de artefatos que precisa
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+O problema central que o projeto Dropfleet visa resolver é a dificuldade no rastreamento de pedidos no comércio eletrônico, especialmente para os praticantes de dropshipping. A falta de ferramentas eficazes para acompanhar o status dos pedidos pode comprometer a experiência do cliente e a eficiência operacional das lojas virtuais. O contexto inclui um aumento significativo no volume de compras online, destacando a necessidade de uma solução que integre serviços de rastreamento de maneira intuitiva e eficiente.
 
 **Links Úteis**:
 
@@ -32,7 +30,13 @@ Nesse momento, o grupo pode optar por fazer uso de ferramentas como Design Think
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Objetivos
+Objetivo Geral: Desenvolver um software que simplifique o rastreamento de pedidos no comércio eletrônico, melhorando a eficiência operacional e a experiência do cliente.
+
+Objetivos Específicos:
+
+- Integrar-se facilmente com plataformas de e-commerce existentes.
+- Oferecer uma interface intuitiva para acompanhar o status dos pedidos em tempo real.
 
 **Links Úteis**:
 
@@ -40,9 +44,7 @@ Aqui você deve descrever os objetivos do trabalho indicando que o objetivo gera
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+A importância de desenvolver a solução proposta pelo projeto Dropfleet reside na necessidade de melhorar a gestão logística e reduzir custos operacionais para os proprietários de e-commerce. A solução visa otimizar processos, garantir transparência no rastreamento de pedidos e aumentar a satisfação do cliente.
 
 **Links Úteis**:
 
@@ -50,9 +52,7 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
+O público-alvo do projeto Dropfleet são os proprietários de lojas virtuais que praticam dropshipping e precisam de uma solução eficiente para gerenciar e monitorar seus pedidos. Os usuários têm conhecimentos variados em tecnologia e esperam uma solução que seja fácil de integrar e usar em suas operações diárias.
 
 **Links Úteis**:
 
@@ -61,7 +61,20 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 
 ## Personas
 
-Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
+Persona 1: João, Empreendedor de E-commerce
+Descrição:
+João tem 35 anos, é empreendedor há 5 anos e gerencia sua loja virtual de roupas.
+Ele possui conhecimento básico em tecnologia e busca soluções que otimizem sua operação de dropshipping.
+Mapa de Empatia:
+Dores: Dificuldade em acompanhar o status dos pedidos; Falta de integração entre diferentes sistemas.
+Ganhos: Melhoria na eficiência operacional; Maior controle sobre os processos logísticos.
+Persona 2: Maria, Startuper de Tecnologia
+Descrição:
+Maria tem 28 anos, é fundadora de uma startup de tecnologia que desenvolve soluções para e-commerce.
+Ela é tecnicamente experiente e procura por ferramentas que possam escalar conforme o crescimento de sua empresa.
+Mapa de Empatia:
+Dores: Complexidade na integração com diferentes plataformas de e-commerce; Necessidade de dados precisos e atualizados.
+Ganhos: Automatização dos processos de rastreamento; Acesso facilitado a informações críticas de logística.
 
 **Links Úteis**:
 

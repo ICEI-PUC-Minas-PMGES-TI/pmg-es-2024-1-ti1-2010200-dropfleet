@@ -63,18 +63,18 @@ O público-alvo do projeto Dropfleet são os proprietários de lojas virtuais qu
 
 Persona 1: João, Empreendedor de E-commerce
 Descrição:
-João tem 35 anos, é empreendedor há 5 anos e gerencia sua loja virtual de roupas.
-Ele possui conhecimento básico em tecnologia e busca soluções que otimizem sua operação de dropshipping.
+João tem 35 anos, é empreendedor há 5 anos e gerencia sua loja virtual de roupas. Ele possui conhecimento básico em tecnologia e busca soluções que otimizem sua operação de dropshipping.
+
 Mapa de Empatia:
-Dores: Dificuldade em acompanhar o status dos pedidos; Falta de integração entre diferentes sistemas.
-Ganhos: Melhoria na eficiência operacional; Maior controle sobre os processos logísticos.
-Persona 2: Maria, Startuper de Tecnologia
-Descrição:
-Maria tem 28 anos, é fundadora de uma startup de tecnologia que desenvolve soluções para e-commerce.
-Ela é tecnicamente experiente e procura por ferramentas que possam escalar conforme o crescimento de sua empresa.
-Mapa de Empatia:
-Dores: Complexidade na integração com diferentes plataformas de e-commerce; Necessidade de dados precisos e atualizados.
-Ganhos: Automatização dos processos de rastreamento; Acesso facilitado a informações críticas de logística.
+
+Dores:
+
+Dificuldade em acompanhar o status dos pedidos.
+Falta de integração entre diferentes sistemas.
+Ganhos:
+
+Melhoria na eficiência operacional.
+Maior controle sobre os processos logísticos.
 
 **Links Úteis**:
 

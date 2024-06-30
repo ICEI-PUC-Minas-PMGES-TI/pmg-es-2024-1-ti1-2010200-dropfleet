@@ -1,65 +1,32 @@
-<<<<<<< HEAD
 cff-version: 1.0.1
-message: Please cite this software using these metadata.
-title: 
+message: Por favor, cite este software utilizando estes metadados.
+title: Dropfleet: Uma solução para rastreamento simplificado de pedidos no comércio eletrônico
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: Resende
+    given-names: Enrico Augusto César
+  - family-names: Freitas
+    given-names: Kayque Allan Ribeiro
+  - family-names: Aguiar
+    given-names: Lucas Sousa
+  - family-names: Rodrigues
+    given-names: Vinícius Gomes
+  - family-names: Ramos
+    given-names: Vinícius Oliveira
+  - family-names: Palhares
+    given-names: Vinícius Zegarra
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Aramuni
+    given-names: João Paulo Carneiro
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Andrade
+    given-names: Michelle Hanne Soares de
 keywords:
-  - 
-  - 
+  - e-commerce
+  - dropshipping
+  - rastreamento de pedidos
 repository-code: 
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2022-07-14
-=======
-cff-version: 1.0.1
-message: Please cite this software using these metadata.
-title: 
-authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
-keywords:
-  - 
-  - 
-repository-code: 
-license: CC-BY-4.0
-version: 1.0.0
-date-released: 2022-07-14
->>>>>>> 576e4073eb686b7caee5801aac8f95491eb4d605
+date-released: 2024-06-30

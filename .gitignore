@@ -14,14 +14,14 @@ authors:
     given-names: Vinícius Oliveira
   - family-names: Palhares
     given-names: Vinícius Zegarra
-  - family-names: Aramuni
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Aramuni
     given-names: João Paulo Carneiro
-    name-suffix: Professor
+  - name-suffix: Professor
     affiliation: PUC Minas
-  - family-names: Andrade
+    family-names: Andrade
     given-names: Michelle Hanne Soares de
-    name-suffix: Professor
-    affiliation: PUC Minas
 keywords:
   - e-commerce
   - dropshipping

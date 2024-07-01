@@ -1,6 +1,6 @@
 cff-version: 1.0.1
-message: Por favor, cite este software utilizando estes metadados.
-title: Dropfleet: Uma solução para rastreamento simplificado de pedidos no comércio eletrônico
+message: Uma solução para rastreamento simplificado de pedidos no comércio eletrônico
+title: Dropfleet
 authors:
   - family-names: Resende
     given-names: Enrico Augusto César

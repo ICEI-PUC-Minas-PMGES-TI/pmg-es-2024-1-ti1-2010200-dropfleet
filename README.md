@@ -19,3 +19,6 @@ Apresentando Dropfleet, o mais recente avanço em eficiência logística para e-
 ## Instruções de utilização
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+
+
+Link do site hospedado: https://zegarrav.github.io/Dropfleet.github.io/

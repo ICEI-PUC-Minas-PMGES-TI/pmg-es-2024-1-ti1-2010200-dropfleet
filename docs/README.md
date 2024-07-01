@@ -167,6 +167,8 @@ A gestão de projetos no projeto Dropfleet é baseada em metodologias ágeis, es
 
 **Links Úteis**:
 
+- Link do site hospedado: https://zegarrav.github.io/Dropfleet.github.io/
+
 - [Sobre Projects - GitHub Docs](https://docs.github.com/pt/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
 - [Gestão de projetos com GitHub | balta.io](https://balta.io/blog/gestao-de-projetos-com-github)
 - [(460) GitHub Projects - YouTube](https://www.youtube.com/playlist?list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H)
